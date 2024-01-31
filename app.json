@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NFT_marketPlace_app",
-    "slug": "NFT_marketPlace_app",
+    "slug": "nft-findo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sriramvaishnav.nftfindo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dbfbab35-6682-4345-af75-c5116dc75241"
+      }
+    },
+    "owner": "sriramvaishnav",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/dbfbab35-6682-4345-af75-c5116dc75241"
     }
   }
 }
